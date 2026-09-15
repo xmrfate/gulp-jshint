@@ -1,16 +1,12 @@
 {
-  "name": "gulp-jshint",
+  "name": "@xmrfate/gulp-jshint",
   "description": "JSHint plugin for gulp",
-  "version": "2.1.0",
-  "homepage": "http://github.com/spalger/gulp-jshint",
+  "version": "2.1.1",
+  "homepage": "http://github.com/xmrfate/gulp-jshint",
   "repository": {
     "type": "git",
-    "url": "git://github.com/spalger/gulp-jshint.git"
+    "url": "git://github.com/xmrfate/gulp-jshint.git"
   },
-  "contributors": [
-    "Spencer Alger <email@spalger.com>",
-    "Fractal <contact@wearefractal.com> (http://wearefractal.com/)"
-  ],
   "main": "./src/index.js",
   "keywords": [
     "gulpplugin"
@@ -23,7 +19,7 @@
     "through2": "^2.0.0"
   },
   "peerDependencies": {
-    "jshint": "2.x"
+    "@xmrfate/jshint": "2.x"
   },
   "devDependencies": {
     "gulp": "^3.8.10",

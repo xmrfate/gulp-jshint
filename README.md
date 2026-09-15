@@ -16,6 +16,9 @@
 </tr>
 </table>
 
+## Note
+This is a fork of the original gulp-jshint and is only meant to resolve security vulnerabilities.
+
 ## Install
 
 ```sh
