@@ -1,7 +1,7 @@
 var path = require('path');
 var PluginError = require('plugin-error');
 var RcLoader = require('rcloader');
-var jshintcli = require('jshint/src/cli');
+var jshintcli = require('@xmrfate/jshint/src/cli');
 var minimatch = require('minimatch');
 
 var assign = require('lodash/assign');
@@ -16,7 +16,7 @@ module.exports = function createLintFunction(userOpts) {
   // Need to assign within the createLintFunction code,
   // else repeated requires (like in tests) will
   // not update the variable
-  var jshint = require('jshint').JSHINT;
+  var jshint = require('@xmrfate/jshint').JSHINT;
 
   if (userOpts.linter) {
     if (isString(userOpts.linter)) {

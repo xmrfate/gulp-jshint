@@ -1,4 +1,4 @@
-var jshintcli = require('jshint/src/cli');
+var jshintcli = require('@xmrfate/jshint/src/cli');
 var fileIgnored = require('./fileIgnored');
 var stream = require('./stream');
 

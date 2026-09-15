@@ -25,7 +25,7 @@ describe('linting', function () {
     var jshintSource;
     var oldSourceJSHINT;
     beforeEach(function() {
-      jshintSource = require('jshint');
+      jshintSource = require('@xmrfate/jshint');
       oldSourceJSHINT = jshintSource.JSHINT;
     });
     afterEach(function() {
